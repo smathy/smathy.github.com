@@ -1,0 +1,87 @@
+body {
+  background-color: #443;
+  color: #110;
+  font: 18px Trebuchet MS, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 400%;
+  color: #9c0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+a:link {
+  color: #e70;
+}
+
+a:visited {
+  color: #110;
+}
+
+a:hover {
+  color: #fa0;
+}
+
+#scatter {
+  text-align: center;
+}
+
+#scatter a {
+  position: relative;
+}
+
+#more, #explanation {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  background-color: inherit;
+  padding: 1ex;
+}
+
+
+#blog { top: -6ex; }
+#github { top: -15ex; }
+#wwr { left: 2ex; }
+#stackoverflow { top: -12ex; }
+#twitter { top: -2ex; }
+#linkedin { top: -10ex; }
+
+
+#tagcloud {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+#tagcloud span
+{
+  padding: 0 1.5ex;
+  cursor: help;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+#tagcloud span.novice { font-size: 100%; }
+#tagcloud span.good { font-size: 110%; }
+#tagcloud span.excellent { font-size: 160%; }
+#tagcloud span.expert { font-size: 200%; }
+
+#tagcloud span.previously { color: #231; }
+#tagcloud span.recently { color: #571; }
+#tagcloud span.currently { color: #be0; }
+
