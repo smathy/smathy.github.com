@@ -62,9 +62,9 @@ a:hover {
 #blog { top: -3ex; }
 #github { top: -10ex; }
 #wwr { left: 2ex; }
-#stackoverflow { top: -12ex; }
+#stackoverflow { top: -13ex; }
 #twitter { top: -2ex; }
-#linkedin { top: -8ex; }
+#linkedin { top: -12ex; left: 2ex; }
 
 #tagcloud {
   width: 70%;
