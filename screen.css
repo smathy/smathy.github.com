@@ -60,10 +60,11 @@ a:hover {
 }
 
 #blog { top: -3ex; }
-#github { top: -10ex; }
-#wwr { left: 2ex; }
+#github { top: -12ex; }
+#wwr { top: -4ex; left: 2ex; }
 #stackoverflow { top: -13ex; }
-#twitter { top: -2ex; }
+#twitter { top: -1ex; }
+#google { top: -3ex; left: 5ex; }
 #linkedin { top: -12ex; left: 2ex; }
 
 #tagcloud {
