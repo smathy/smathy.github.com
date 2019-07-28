@@ -1,7 +1,7 @@
 body {
   background-color: #443;
   color: #110;
-  font: 20px Schoolbell, Trebuchet MS, sans-serif;
+  font: 20px 'Schoolbell', Trebuchet MS, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -18,7 +18,7 @@ body.dropshadows {
 
 h1 {
   text-align: center;
-  font-family: Corben;
+  font-family: 'Corben';
   font-size: 500%;
   color: #554;
   margin: 0;
