@@ -1,4 +1,4 @@
-import "/lib.js"
+import "./lib.js"
 
 function add_titles() {
   $('img').each( function() {
