@@ -69,7 +69,7 @@ a:hover {
 #gems { top: -2ex; left: 7ex; }
 #stackoverflow { top: -13ex; }
 #angel_list { top: -3ex; left: 5ex; }
-#linkedin { top: -12ex; left: 2ex; }
+#linkedin { left: -8ex; }
 
 #tagcloud {
   width: 70%;
