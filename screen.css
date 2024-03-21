@@ -87,11 +87,6 @@ a:hover {
 }
 
 #tagcloud span.novice { font-size: 100%; }
-#tagcloud span.good { font-size: 110%; }
-#tagcloud span.excellent { font-size: 160%; }
-#tagcloud span.expert { font-size: 200%; }
-
-#tagcloud span.previously { color: #231; }
-#tagcloud span.recently { color: #571; }
-#tagcloud span.currently { color: #be0; }
-
+#tagcloud span.good { color: #461; font-size: 120%; }
+#tagcloud span.excellent { color: #791; font-size: 150%; }
+#tagcloud span.expert { color: #be0; font-size: 200%; }
