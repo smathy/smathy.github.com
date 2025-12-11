@@ -16,11 +16,11 @@ function add_titles() {
 
 const ws = /[ \t\n]+/
 const skills = {
-	good: "ASP AWS C++ C CVS Hotwire Chef Cucumber Debian Delphi Ferret IRC MSSQL Mason MongoDB OLE POP3 Puppet RMI SOAP Scala VBA WINAPI WSDL XP backbone.js go/golang merb mod_perl redis Mongrel NNTP Oracle Sybase lighttpd React".split(ws),
+  good: "ASP AWS C++ C CVS Hotwire Chef Cucumber Debian Delphi Ferret IRC MSSQL Mason MongoDB OLE POP3 Puppet RMI SOAP Scala VBA WINAPI WSDL XP backbone.js go/golang merb mod_perl Mongrel NNTP Oracle Sybase lighttpd React Kotlin Swift".split(ws),
 
-	excellent: "Bulma UnoCSS GIS Elixir GraphQL IIS IMAP Jade Java PHP Passenger PostgreSQL REST SMTP SQL SQLite3 Scrum Sphinx Stylus TailwindCSS Ubuntu Visual&nbsp;Basic awk bash mSQL mod_rails node.js sed".split(ws),
+  excellent: "Bulma UnoCSS GIS Elixir GraphQL IIS IMAP Jade Java PHP Passenger PostgreSQL REST SMTP SQL SQLite3 Scrum Sphinx Stylus TailwindCSS Ubuntu Visual&nbsp;Basic awk bash mSQL mod_rails node.js sed redis Datadog Elasticsearch Sidekiq Docker CI/CD".split(ws),
 
-	expert: `Slim AJAX Agile Batman.js CGI CSS Capistrano CoffeeScript CouchDB HTML HTTP JSON JavaScript Linux MySQL OSX Perl Phoenix xUnit Test::Unit Ruby&nbsp;on&nbsp;Rails Windows XHTML XML Ubuntu gentoo git haml heroku htmx jQuery nginx Apache prototype regex rspec scss/sass Vue`.split(ws),
+  expert: `Slim AJAX Agile Batman.js CGI CSS Capistrano CoffeeScript CouchDB HTML HTTP JSON JavaScript Linux MySQL OSX Perl Phoenix xUnit Test::Unit Ruby&nbsp;on&nbsp;Rails Windows XHTML XML Ubuntu gentoo git haml heroku htmx jQuery nginx Apache prototype regex rspec scss/sass Vue Lua Command&nbsp;Pattern Domain-Driven&nbsp;Design Performance&nbsp;Optimization Database&nbsp;Indexing Time&nbsp;Series Anomaly&nbsp;Detection Rate&nbsp;Limiting Connection&nbsp;Pooling Monitoring Multi-threading Query&nbsp;Optimization`.split(ws),
 }
 
 const skills_map = Object.entries(skills).reduce((h, [level, skills]) => {
